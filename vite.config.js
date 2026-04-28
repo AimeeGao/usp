@@ -19,10 +19,8 @@ export default defineConfig({
         }),
         viteStaticCopy({
             targets: [
-                // { src: 'resources/images/**/*', dest: '../images' },
-                // { src: 'resources/fonts/**/*', dest: '../fonts' },
-                { src: 'resources/images/bc_sq_logo.png', dest: '../images' },
-                { src: 'resources/fonts/NotoSans-Regular.ttf', dest: '../fonts' },
+                { src: 'resources/images/**/*', dest: '../images' },
+                { src: 'resources/fonts/**/*', dest: '../fonts' },
             ],
         }),
     ],
